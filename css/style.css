@@ -415,3 +415,7 @@ h6,
 .copyright a:hover {
     color: var(--light);
 }
+
+.jcC {
+    justify-content: center;
+}
