@@ -1,9 +1,45 @@
 /********** Template CSS **********/
 :root {
-    --primary: #EAA636;
-    --secondary: #545454;
-    --light: #FDF5EB;
-    --dark: #1E1916;
+    --primary: #B19CD9;   /* Soft Purple */ 
+    --secondary: #8A2BE2; /* Blue Violet */
+    --light: #EADDEB;     /* Light Thistle */
+    --dark: #4B0082;      /* Indigo */
+}
+
+
+/* ------------------------------ FONTS ------------------------------------ */
+.italianno-regular {
+    font-family: "Italianno", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cookie-regular {
+    font-family: "Cookie", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Italianno', cursive;
+}
+
+sub, span, nav {
+    font-family: 'Pacifico', cursive;
+}
+
+sup {
+    font-family: 'Cookie', cursive;
+}
+
+p, .btn {
+    font-family: 'Borel', sans-serif;
 }
 
 h4,
@@ -57,6 +93,8 @@ h6,
 
 .btn.btn-primary {
     color: #FFFFFF;
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important
 }
 
 .btn-square {
@@ -417,4 +455,20 @@ h6,
 
 .jcC {
     justify-content: center;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+.text-dark {
+    color: var(--dark) !important;
+}
+
+.bg-light {
+    background-color: var(--light) !important;
 }
