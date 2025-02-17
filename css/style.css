@@ -4,6 +4,7 @@
     --secondary: #8A2BE2; /* Blue Violet */
     --light: #EADDEB;     /* Light Thistle */
     --dark: #4B0082;      /* Indigo */
+    --background: #FAF9F6;
 }
 
 
@@ -247,7 +248,7 @@ h6,
 
 .page-header {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/Collage.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -471,4 +472,8 @@ h6,
 
 .bg-light {
     background-color: var(--light) !important;
+}
+
+html, body {
+    background-color: var(--background) !important;
 }
